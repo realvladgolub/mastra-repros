@@ -1,0 +1,11 @@
+{
+  "name": "readonly-resume-leak",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mastra/core": "1.76.0",
+    "@mastra/memory": "1.37.0",
+    "tsx": "4.21.0",
+    "zod": "4.4.3"
+  }
+}
