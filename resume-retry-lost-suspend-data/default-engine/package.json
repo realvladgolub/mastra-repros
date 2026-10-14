@@ -1,0 +1,10 @@
+{
+  "name": "repro-default-engine",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mastra/core": "1.76.0",
+    "tsx": "4.21.0",
+    "zod": "4.4.3"
+  }
+}
