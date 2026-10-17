@@ -1,0 +1,9 @@
+   1.0 s  w1 (pid 33534) connected to Inngest
+   1.7 s  workflow run suspended; agent loop row: {"status":"suspended","resumeClaimedAt":null}
+   2.2 s  resumed leg is calling the model in w1; agent loop row: {"status":"running","resumeClaimedAt":1792242703781}
+   2.2 s  SIGKILL w1; agent loop row: {"status":"running","resumeClaimedAt":1792242703781}
+   3.3 s  w2 (pid 33540) connected to Inngest
+   3.3 s  waiting for Inngest to run the step again in w2
+ 170.9 s  w2: step run again, resumeGenerate() threw AGENT_RESUME_ALREADY_CLAIMED, 168 s after the kill
+ 172.9 s  suspendData of the step run again: {"agentRunId":"7f253a0c-75f6-412c-bd99-c937005fc3e8","toolCallId":"call-1"}
+ 172.9 s  workflow run status: failed; agent loop row: {"status":"running","resumeClaimedAt":1792242703781}

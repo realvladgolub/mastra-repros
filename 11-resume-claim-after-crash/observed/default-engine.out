@@ -1,0 +1,11 @@
+first: start() -> suspended
+first: agent loop row after the suspension: {"status":"suspended","resumeClaimedAt":null}
+first: the resumed loop is calling the model; agent loop row now: {"status":"running","resumeClaimedAt":1792242595139}
+first: SIGKILL
+second: agent loop row after the crash: {"status":"running","resumeClaimedAt":1792242595139}
+second: restart() -> failed
+second: resumeGenerate() in the step run again threw AGENT_RESUME_ALREADY_CLAIMED: Agent "asker" resumeGenerate() cannot resume run "1b72c654-b9eb-4468-a6c5-91597d09bfce" because another resume of it already claimed it.
+second: suspendData of the step run again: {"agentRunId":"1b72c654-b9eb-4468-a6c5-91597d09bfce","toolCallId":"call-1"}
+third: waiting 65 s (AGENT_RESUME_CLAIM_STALE_MS is 60 s)
+third: agent loop row: {"status":"running","resumeClaimedAt":1792242595139}
+third: resumeGenerate() threw AGENT_RESUME_ALREADY_CLAIMED
