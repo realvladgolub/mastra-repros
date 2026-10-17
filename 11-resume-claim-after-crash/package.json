@@ -1,0 +1,13 @@
+{
+  "name": "mastra-repro-resume-claim-after-crash",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@mastra/core": "1.78.0",
+    "@mastra/inngest": "1.10.6",
+    "@mastra/pg": "1.31.2",
+    "inngest": "4.18.1",
+    "tsx": "4.21.0",
+    "zod": "4.4.3"
+  }
+}
